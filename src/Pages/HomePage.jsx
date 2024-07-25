@@ -9,7 +9,7 @@ import useWeather from "../hooks/useWeather.jsx";
 const HomePage = () => {
 
 
-    const [location, setLocation] = useState("nandikotkur");
+    const [location, setLocation] = useState("Hyderabad");
     const weather = useWeather(location);
 
 
