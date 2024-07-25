@@ -1,0 +1,6 @@
+https://api.weatherapi.com/v1/current.json?key=305e5d16e5b64981b3445756242407&q=kurnool&aqi=yes
+305e5d16e5b64981b3445756242407
+
+https://api.openweathermap.org/data/2.5/forecast?q=London,uk&APPID=0b39141a7d4faa38852f1b91243bdb11&units=metric
+0b39141a7d4faa38852f1b91243bdb11
+

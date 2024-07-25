@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.search_input{
+    width: 70%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--text2);
+    background: none;
+    color: var(--text2);
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 3px; /* Adjust the width as needed */
+
+}
+
+::-webkit-scrollbar:hover {
+    width: 5px; /* Adjust the width as needed */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000; /* You can change this color if needed */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3d3d3d; /* Yellow color for the scrollbar handle */
+    border-radius: 10px; /* Roundness of the scroll thumb */
+}
+
+     /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     width: 5px;
+ }
+
+ /*Add media quries*/
+
+    @media (max-width: 768px) {
+        .mobile-flex {
+            display: block;
+        }
+
+        .air_quality img{
+            display: none;
+        }
+
+        .air_quality .text-4xl{
+            font-size: 1.5rem;
+        }
+
+        .weather_card{
+            flex-wrap: wrap;
+        }
+
+        .weather_card div p{
+            font-size: 14px;
+        }
+
+        .weather_card .inner_card{
+            flex-basis: 100%;
+        }
+
+        .left, .right{
+            margin-right: 20px;
+        }
+
+        .sunrise .text-3xl, .sunset .text-3xl{
+            font-size: 14px;
+        }
+
+        .hour{
+            overflow: scroll;
+        }
+
+        .current_location{
+            display: none;
+        }
+
+        .search{
+            width: 60%;
+        }
+
+
+
+
+
+    }
+
+

@@ -1,0 +1,78 @@
+:root {
+    --bg_dark: #000000;
+    --card_bg: #1c1c1e;
+    --text: #ffffff;
+    --text2: #8d8d8d;
+
+}
+
+body{
+    background-color: var(--bg_dark);
+    color: var(--text);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.card{
+    background-color: var(--card_bg);
+    color: var(--text);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inner_card{
+    background: var(--bg_dark);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--text);
+}
+
+.inner_title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--text2);
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.text2{
+    color: var(--text2);
+}
+
+.sd_text{
+    font-size: 14px;
+    color: var(--text2);
+}
+
+.sw_text{
+    font-size: 14px;
+    color: var(--text);
+}
+
+
+.left{
+    flex-basis: 23%;
+}
+
+.right{
+    flex-basis: 73%;
+}
