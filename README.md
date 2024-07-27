@@ -12,7 +12,7 @@ RainVine, a weather app built with React.js to showcase my web development skill
 Check out the live demo: RainVine.sandeshapparala.com
 
 ## Technologies Used
-Frontend: React.js, Vite, Tailwind CSS
-APIs: OpenWeatherMap API, WeatherAPI
-Deployment: GitHub Pages
+-Frontend: React.js, Vite, Tailwind CSS
+-APIs: OpenWeatherMap API, WeatherAPI
+-Deployment: GitHub Pages
 
